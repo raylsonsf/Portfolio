@@ -1,0 +1,103 @@
+/*Index*/
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(252, 251, 251);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #595e3f;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: #057579;
+    display: flex;   
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+}
+
+nav ul li{
+    text-align: center;
+    flex: 1;
+}
+nav ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+}
+header img{
+    width: 150px;
+    height: 150 px;
+    border-radius: 50%;
+    border: 5 px solid gray;
+}
+
+section{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2em;
+    margin: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sobremim{
+    text-align: justify;
+}
+
+.port{
+    text-align: center;
+}
+.portfolio{
+    display: inline-block;
+    justify-content: center;
+    margin: 30px;
+    
+}
+.portfolio img{
+    width: 300px;
+             
+}
+   
+.portfolio p{
+    text-align: center;
+    font-size: 12px;      
+}
+
+
+.contatos{
+    display: flex;
+    justify-content: center;
+}
+
+.contatos img{
+    width: 100px;
+    height: 100px; 
+          
+}
+.contatos a{
+    margin: 20px;
+    text-align: center;
+}
+.contatos p{
+    margin: 20px;
+}
+
+
+
+/*rodapé*/
+footer p{
+    text-align: center;
+    padding: 3em;
+    background-color: #333;
+    color: #fff;
+}
